@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        .styled-hr{
+            border: 0;
+            height: 20px;
+            background-color: whitesmoke
+        }
+    </style>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <u><a href="index.html">Home</a></u> |
+            <u><a href="about.html">About</a></u> |
+            <u><a href="contact.html">Contact</a></u>
+        </nav>
+    </header><hr class="styled-hr">
+    <main>
+        <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" size="20" required>
+                <br><br>
+                <label for="text">Email:</label>
+                <input type="text" id="Email" name="Email" size="20" required>
+                <br><br>
+                <label for="comments">Message:</label><br>
+                <textarea id="Message" name="comments" rows="04" cols="50">
+                </textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        <hr class="styled-hr">
+        <section>
+            <h2>Our Location</h2>
+            <img src="images.jpg">
+        </section>
+        <hr class="styled-hr">
+        <section>
+            <h2>Listen to Our Audio</h2>
+            <audio src="audio.mp3" controls loop></audio>
+        </section>
+        <hr class="styled-hr">
+        <section>
+            <h2>Watch Our Video</h2>
+            <video src="video.mp4" controls loop poster="video.JPG"></video>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2024 - My Website</p>
+    </footer><hr class="styled-hr">
+</body>
+</html>
